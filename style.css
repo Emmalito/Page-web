@@ -1,0 +1,171 @@
+body
+{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;	
+}
+
+h1, h2
+{
+	color: #000000;
+	text-align: center;
+	background-color: rgb(105,25,78); 
+}
+
+.loremipsum
+{
+	font-style: italic;
+	text-align: left;
+}
+
+#prefere
+{
+	background-color: blue;
+}
+
+li:nth-child(even) 
+{
+	background-color: grey;
+ }
+
+ .Classement
+ {
+ 	display: inline;
+ }
+
+ a:link 
+ {
+ 	color: red;
+ }
+
+ a:visited
+ {
+ 	color: blue;
+ }
+
+ a:hover
+ {
+ 	color: yellow;
+ }
+
+ a:active
+ {
+ 	color: lime;
+ }
+
+ article
+ {
+ 	margin: 10px;
+ 	padding: 5px;
+ 	border: 1px solid #AAAAAA;
+ 	background-color: #CCCCCC;
+ }
+
+ header, footer
+ {
+ 	margin: 25px 10px 45px 13px;
+ }
+
+ ul.menu 
+ {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block; 
+	flex-flow: row;
+	justify-content: center; 
+	background-color: #CCCCCC;
+	border: 4px solid #AAAAAA;
+}
+
+ul.menu li a
+{
+	text-decoration: none;
+	padding: 10px 5px;
+	display: block;
+	color: black;
+	background-color: pink;
+	transition: background .25s ease-in-out;
+}
+
+ul.menu li a:hover
+{
+	background-color: #999999;
+}
+
+
+@media screen and (max-width: 640px) 
+{
+	.loremipsum 
+	{
+		background-color : #FFFFFF;
+	}
+}
+
+@media screen and (min-width: 641px) 
+{
+	.loremipsum 
+	{
+		background-color : #CCCCCC;
+	}
+}
+
+body
+{
+background-color: #666666;
+}
+
+section, aside, header, footer
+{
+border: 4px solid #AAAAAA;
+padding: 10px;
+}
+
+header, footer
+{
+background-color: #888888;
+}
+
+#coteacote
+{
+display: flex;
+}
+
+section
+{
+width: 70%;
+background-color: white;
+}
+
+aside
+{
+width: 200px;
+background-color: beige;
+}
+
+#tout
+{
+width: 800px;
+margin: 0 auto;
+}
+
+
+@media screen and (max-width: 640px)
+{
+	#coteacote
+	{
+		display: block;
+	}
+
+	section, aside
+	{
+		width: auto;
+	}
+}
+
+
+@media screen and (max-width: 600px) 
+{
+	ul.menu
+	{
+		display: flex;
+	}
+}
